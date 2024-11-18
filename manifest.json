@@ -16,5 +16,8 @@
                 "*://*/*/jira/*/boards/*"
             ]
         }
+    ],
+    "permissions": [
+        "activeTab"
     ]
 }
