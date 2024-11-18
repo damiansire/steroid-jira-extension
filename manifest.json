@@ -5,6 +5,16 @@
     "version": "1.0",
     "action": {
         "default_popup": "hello.html",
-        "default_icon": "steroid-jira.png"
-    }
+        "default_icon": "images/steroid-jira.png"
+    },
+    "content_scripts": [
+        {
+            "js": [
+                "scripts/content.js"
+            ],
+            "matches": [
+                "*://*/*/jira/*/boards/*"
+            ]
+        }
+    ]
 }
